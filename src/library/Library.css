@@ -1,0 +1,20 @@
+.cards__container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+.cards__card{
+    margin:10px;
+    padding:5px;
+}
+
+    .cards__card_available{
+        border: 1px solid rgb(39, 39, 39);
+    }
+
+    .cards__card_notavailable{
+        border: 1px solid red;
+    }
